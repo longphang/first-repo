@@ -8,6 +8,10 @@ def read_file(file):
     return data
 
 
+def add(x, y):
+    return x + y
+
+
 def main():
     print('Hello World - this is on branch test1')
 
