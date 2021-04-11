@@ -12,6 +12,10 @@ def add(x, y):
     return x + y
 
 
+def minus(x, y):
+    return x - y
+
+
 def main():
     print('Hello World - this is on branch test1')
 
