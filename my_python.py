@@ -1,7 +1,3 @@
-import os
-import sys
-
-
 def read_file(file):
     with open(file, 'r') as f:
         data = f.read()
@@ -16,7 +12,7 @@ def minus(x, y):
     return x - y
 
 
-def divide(x. y):
+def divide(x, y):
     return x // y
 
 
