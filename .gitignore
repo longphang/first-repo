@@ -55,3 +55,9 @@ parameters.yml
 # Databases #
 ######################
 db.sqlite3
+
+
+# Pipenv #
+##########
+
+Pipfile
