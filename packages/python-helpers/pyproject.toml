@@ -1,0 +1,37 @@
+[project]
+name = 'common'
+version = '0.0.1'
+authors = [
+    {name = 'Example', email = 'example@test.com'}
+]
+maintainers = [
+    {name = 'Example', email = 'example@test.com'}
+]
+description = 'common python package'
+readme = 'README.md'
+license = {text = 'Proprietary'}
+classifiers = [
+    'License :: Other/Proprietary License',
+    'Operating System :: MacOS',
+    'Operating System :: Microsoft :: Windows :: Windows 10',
+    'Operating System :: Unix',
+    'Programming Language :: Python :: 3.9'
+]
+dependencies = []
+
+[build-system]
+requires = ['setuptools', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools]
+platforms= [
+    'unix',
+    'linux',
+    'osx',
+    'win32'
+]
+zip-safe = false
+
+[tool.setuptools.packages.find]
+include = ['common*']
+exclude = []
