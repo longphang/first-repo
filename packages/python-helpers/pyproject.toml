@@ -1,7 +1,9 @@
 [project]
 name = 'common'
 version = '0.0.1'
-authors = {name = 'Example', email = 'example@test.com'}
+authors = [
+    {name = 'Example', email = 'example@test.com'}
+]
 maintainers = [
     {name = 'Example', email = 'example@test.com'}
 ]
