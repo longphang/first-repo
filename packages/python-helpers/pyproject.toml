@@ -32,6 +32,6 @@ platforms= [
 ]
 zip-safe = false
 
-[tool.setuptools.package.find]
+[tool.setuptools.packages.find]
 include = ['common*']
 exclude = []
