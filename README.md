@@ -1,2 +1,2 @@
 # first-repo
-Practice GitHub commands
+Practice Git commands
