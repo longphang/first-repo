@@ -17,3 +17,7 @@ def multiply(x: int, y: int) -> int:
 def divide(x: int, y: int) -> int:
     """Divide first integer from the second integer"""
     return x // y
+
+def square_root(x: int) -> float:
+    """Calculate the square root of an integer"""
+    return x ** 0.5
